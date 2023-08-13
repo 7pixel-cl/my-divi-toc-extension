@@ -1,0 +1,33 @@
+.divi-toc {
+    position: fixed;
+    top: 20%;
+    right: 2%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f9f9f9;
+    max-width: 200px;
+    overflow-y: auto;
+    z-index: 9999;
+}
+
+.divi-toc h3 {
+    margin-top: 0;
+}
+
+.divi-toc ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.divi-toc ul li {
+    margin-bottom: 5px;
+}
+
+.divi-toc ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.divi-toc ul li a:hover {
+    text-decoration: underline;
+}
